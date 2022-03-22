@@ -17,7 +17,7 @@ public class Role {
     public Role() {
     }
 
-    public Role(RoleType rolename) {
+    public Role(@NotNull RoleType rolename) {
         this.rolename = rolename;
     }
 

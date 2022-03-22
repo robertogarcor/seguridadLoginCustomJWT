@@ -16,7 +16,9 @@ public class RoleServiceImpl implements RoleService {
     @Autowired
     private RoleRepository roleRepository;
 
-    public Optional<Role> getRoleByName(RoleType rolename) {
+    @Override
+    public Optional<Role> getByRolename(RoleType rolename) {
+        System.out.println(roleRepository.findByRolename(rolename));
         return roleRepository.findByRolename(rolename);
     }
 
@@ -24,6 +26,7 @@ public class RoleServiceImpl implements RoleService {
     public void saveRole(Role role) {
         roleRepository.save(role);
     }
+
 
 
 }

@@ -39,7 +39,7 @@ public class SecurityLoginController {
 	 */
 	@GetMapping("/")
 	public String index(Principal p, Model model) {
-		System.out.println(p.getName());
+		System.out.println("Hello user " + p.getName());
 		MyUserPrincipal myUserPrincipal = (MyUserPrincipal) myUserDetailsService.loadUserByUsername(p.getName());
 		model.addAttribute("user", myUserPrincipal);
 		return "index";
