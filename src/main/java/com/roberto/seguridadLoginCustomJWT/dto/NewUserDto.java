@@ -9,14 +9,14 @@ import java.util.Set;
 
 public class NewUserDto {
 
-    @NotBlank
+    @NotBlank(message = "Username name cannot be empty.")
     private String username;
-    @NotBlank
+    @NotBlank(message = "Password cannot be empty.")
     private String password;
-    @NotBlank
+    @NotBlank(message = "Surname cannot be empty.")
     private String surname;
-    @Email
-    @NotBlank
+    @Email(message = "Email incorrect.")
+    @NotBlank(message = "Email cannot be empty.")
     private String email;
     private Set<Role> roles = new HashSet<>();
 

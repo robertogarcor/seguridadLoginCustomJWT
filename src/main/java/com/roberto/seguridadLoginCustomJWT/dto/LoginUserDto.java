@@ -1,6 +1,5 @@
 package com.roberto.seguridadLoginCustomJWT.dto;
 
-
 import javax.validation.constraints.NotBlank;
 
 public class LoginUserDto {
