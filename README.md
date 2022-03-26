@@ -17,8 +17,8 @@ Acciones:
 - Crear base de datos, default -> users
 - Crear rol/usuario owner del base de datos.
 - Ejecutar script sql de inicializacion. Contiene estructura de BD con datos de usuarios prueba.
-  - <a href="https://github.com/robertogarcor/seguridadLoginCustomJWT/blob/main/seguridadLoginCustomJWT/src/main/resources/dump-users.sql">dump-users.sql</a>
-- Configurar fichero propiedades <a href="https://github.com/robertogarcor/seguridadLoginCustomJWT/blob/main/seguridadLoginCustomJWT/src/main/resources/db.properties">db.properties</a> con los datos de la BD.
+  - <a href="https://github.com/robertogarcor/seguridadLoginCustomJWT/blob/main/src/main/resources/db/dump-users.sql">dump-users.sql</a>
+- Configurar fichero propiedades <a href="https://github.com/robertogarcor/seguridadLoginCustomJWT/blob/main/src/main/resources/application.properties">application.properties</a> con los datos de la BD.
 
 Nota:<br>
 
