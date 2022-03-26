@@ -1,5 +1,5 @@
 # Layer Login/Register users -> Form + API JWT
-Spring Security + Spring Data JPA + thymeleaf + PostgreSQL
+Spring Security + Spring MVC + Spring Data JPA + thymeleaf + PostgreSQL
 
 ###Backend
 
