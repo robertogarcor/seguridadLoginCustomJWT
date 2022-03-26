@@ -24,8 +24,8 @@ Nota:<br>
 
 - El proyecto Spring contiene una clase comentada dentro del paquete utils.CreateEntitiesUsersRoles, 
 que permite crear 2 Roles ADMIN/USER y 2 usuarios con roles respectivos.
-En una alternativa inicial, y es usada en primera instancia. Descomentar la clase y una vez inicializado
-el proyecto, comentar posteriormente.
+En una alternativa inicial si es usada en primera instancia, descomentar la clase y una vez inicializado
+el proyecto comentar posteriormente.
 
 
 
