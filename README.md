@@ -27,5 +27,17 @@ que permite crear 2 Roles ADMIN/USER y 2 usuarios con roles respectivos.
 En una alternativa inicial si es usada en primera instancia, descomentar la clase y una vez inicializado
 el proyecto comentar posteriormente.
 
+**Puntos**
+
+Form:
+
+- http;//localhost:8082/login
+- http;//localhost:8082/register
+
+API:
+
+- http;//localhost:8082/api/login
+- http;//localhost:8082/api/register
+
 
 
